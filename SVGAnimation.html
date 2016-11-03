@@ -10,21 +10,88 @@ SVG Animation
     </title>
   </head>
   <body>
-      <svg width="100%" viewBox="0 0 200 100" style="background-color:#004F6A">
-      <text x="100" y="50"  font-size="5" fill="white">Welcome to Townsville!</text>
-      
-      <rect x="-20" y="90" fill="red" width="20" height="5">
+      <svg width="100%" viewBox="0 0 200 100" style="background-color:#008E88">
+
+        <a href="SVGAnimationNight.html" ><circle cx="100" cy="100" r="60" fill="yellow">
+            <animate id="fade" attributeName="opacity" from="1" to=".7" dur="5s" begin="mouseover" fill="freeze"/>
+        </circle></a>
+        <!--Triangular Building-->
+        <polygon points="99 45 120 30 120 100 99 100" fill="#0A314E"/>
+        <!--Welcome Text-->
+      <text x="100" y="20"  font-size="5" fill="white">Welcome to Townsville!</text>
+        <!--Rectangular Building-->
+        <rect x="30" y="50" fill="#0A314E" width="19" height="50"/>
+          <!--Windows-->
+        <rect x="33" y="93" fill="#A45B83" width="3" height="5"/>
+        <rect x="38" y="93" fill="#A45B83" width="3" height="5"/>
+        <rect x="43" y="93" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="33" y="85" fill="#A45B83" width="3" height="5"/>
+        <rect x="38" y="85" fill="#A45B83" width="3" height="5"/>
+        <rect x="43" y="85" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="33" y="77" fill="#A45B83" width="3" height="5"/>
+        <rect x="38" y="77" fill="#A45B83" width="3" height="5"/>
+        <rect x="43" y="77" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="33" y="69" fill="#A45B83" width="3" height="5"/>
+        <rect x="38" y="69" fill="#A45B83" width="3" height="5"/>
+        <rect x="43" y="69" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="33" y="61" fill="#A45B83" width="3" height="5"/>
+        <rect x="38" y="61" fill="#A45B83" width="3" height="5"/>
+        <rect x="43" y="61" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="33" y="53" fill="#A45B83" width="3" height="5"/>
+        <rect x="38" y="53" fill="#A45B83" width="3" height="5"/>
+        <rect x="43" y="53" fill="#A45B83" width="3" height="5"/>
+
+
+
+        <rect x="103" y="93" fill="#A45B83" width="3" height="5"/>
+        <rect x="108" y="93" fill="#A45B83" width="3" height="5"/>
+        <rect x="113" y="93" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="103" y="85" fill="#A45B83" width="3" height="5"/>
+        <rect x="108" y="85" fill="#A45B83" width="3" height="5"/>
+        <rect x="113" y="85" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="103" y="77" fill="#A45B83" width="3" height="5"/>
+        <rect x="108" y="77" fill="#A45B83" width="3" height="5"/>
+        <rect x="113" y="77" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="103" y="69" fill="#A45B83" width="3" height="5"/>
+        <rect x="108" y="69" fill="#A45B83" width="3" height="5"/>
+        <rect x="113" y="69" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="103" y="61" fill="#A45B83" width="3" height="5"/>
+        <rect x="108" y="61" fill="#A45B83" width="3" height="5"/>
+        <rect x="113" y="61" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="103" y="53" fill="#A45B83" width="3" height="5"/>
+        <rect x="108" y="53" fill="#A45B83" width="3" height="5"/>
+        <rect x="113" y="53" fill="#A45B83" width="3" height="5"/>
+
+        <rect x="103" y="45" fill="#A45B83" width="3" height="5"/>
+        <rect x="108" y="45" fill="#A45B83" width="3" height="5"/>
+        <rect x="113" y="45" fill="#A45B83" width="3" height="5"/>
+      <!--  <animate attributeName="x" from="-20" to="250" dur="10s" repeatCount="indefinite"/>
+        </rect>
+        Car-->
+        <rect x="-20" y="93" fill="red" width="20" height="5">
         <animate attributeName="x" from="-20" to="250" dur="10s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="-20" y="80" fill="red" width="15" height="15">
+        </rect>
+        <rect x="-20" y="83" fill="red" width="15" height="15">
         <animate attributeName="x" from="-20" to="250" dur="10s"repeatCount="indefinite"/>
-      </rect>
-      <circle cx="-15" cy="95" r="3" fill="black">
-    <animate attributeName="cx" from="-15" to="250" dur="9.8s"repeatCount="indefinite"/>
-  </circle>
-      <circle cx="-5" cy="95" r="3" fill="black">
-    <animate attributeName="cx" from="-5" to="260" dur="9.8s"repeatCount="indefinite"/>
-  </circle>
+        </rect>
+        <!--Wheels-->
+        <circle cx="-15" cy="98" r="3" fill="black">
+          <animate attributeName="cx" from="-15" to="255" dur="10s"repeatCount="indefinite"/>
+        </circle>
+        <circle cx="-5" cy="98" r="3" fill="black">
+          <animate attributeName="cx" from="-5" to="265" dur="10s"repeatCount="indefinite"/>
+        </circle>
     </svg>
+      <p>The city of Townsville is a beautiful place, home of super heroines The Powerpuff Girls. The three powerpuff girls are Blossom, Bubbles, and Buttercup. <br> Fun Fact - Townsville is also the name of two other cities which actually exist in two different parts of the world: Townsville, North Carolina, United States and Townsville, Queensland, Australia.</p>
   </body>
 </html>
