@@ -11,7 +11,7 @@ SVG Animation
   </head>
   <body>
       <svg width="100%" viewBox="0 0 200 100" style="background-color:#008E88">
-        <!--Cloud-->
+        <!--Clouds-->
         <ellipse cx="20" cy="12" rx="15" ry="5" fill="white">
           <animate id="fade"attributeName="opacity" from="1" to="0" dur="5s" begin="click" fill="freeze"/>
           <animate id="unfade" attributeName="opacity" from="0" to="1" dur="5s" begin="fade.end" fill="freeze"/>
@@ -102,7 +102,16 @@ SVG Animation
         <circle cx="-5" cy="98" r="3" fill="black">
           <animate attributeName="cx" from="-5" to="265" dur="10s"repeatCount="indefinite"/>
         </circle>
+
+         <image x="-50" y="100" width="30" height="30" xlink:href="powerpuff-girls.png">
+           <animate attributeName="x" from="-50" to="220" dur="8s" repeatCount="indefinite"/>
+           <animate attributeName="y" from="100" to="0" dur="8s" repeatCount="indefinite"/>
+         </image>
+
     </svg>
-      <p>The city of Townsville is a beautiful place, home of super heroines The Powerpuff Girls. The three powerpuff girls are Blossom, Bubbles, and Buttercup. <br> Fun Fact - Townsville is also the name of two other cities which actually exist in two different parts of the world: Townsville, North Carolina, United States and Townsville, Queensland, Australia.</p>
+      <p>The city of Townsville is a beautiful place, home of super heroines The Powerpuff Girls. The three powerpuff girls are Blossom, Bubbles, and Buttercup.
+        <br> Fun Fact - Townsville is also the name of two other cities which actually exist in two different parts of the world: Townsville, North Carolina, United States and Townsville, Queensland, Australia.
+        <br> Click on the clouds to make them fade away. Mouseover the sun to make it fade. Click on the sun to visit Townsville at night.
+      </p>
   </body>
 </html>
